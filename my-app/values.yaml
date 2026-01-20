@@ -1,8 +1,8 @@
-replicaCount: 2
+replicaCount: 3  # Cambiar de 2 a 3 réplicas
 
 image:
   repository: nginx
-  tag: "1.25"
+  tag: "1.25-alpine"  # Cambiar versión de imagen
   pullPolicy: IfNotPresent
 
 service:
@@ -20,4 +20,4 @@ resources:
 
 app:
   name: "my-webapp"
-  environment: "development"
+  environment: "production"  # Cambiar ambiente
