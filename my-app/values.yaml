@@ -1,4 +1,4 @@
-replicaCount: 3  # Cambiar de 2 a 3 réplicas
+replicaCount: 4  # Cambiar de 2 a 3 réplicas
 
 image:
   repository: nginx
@@ -20,4 +20,4 @@ resources:
 
 app:
   name: "my-webapp"
-  environment: "production"  # Cambiar ambiente
+  environment: "staging"  # Cambiar ambiente
