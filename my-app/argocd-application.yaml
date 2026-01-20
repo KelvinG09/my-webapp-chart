@@ -6,7 +6,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/tu-usuario/my-webapp-chart.git
+    repoURL: https://github.com/KelvinG09/my-webapp-chart.git
     targetRevision: main
     path: my-app
     helm:
