@@ -1,0 +1,10 @@
+# Ignorar archivos temporales
+*.tmp
+*.log
+
+# Ignorar IDEs
+.vscode/
+.idea/
+
+# Ignorar archivos de Kubernetes
+*.kubeconfig
